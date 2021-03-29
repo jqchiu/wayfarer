@@ -12,7 +12,7 @@ Project Wayfarer was not only a project to build our knowledge using the MERN St
 The client's basic wireframes and user stories.
 
 - Wireframes
-![wireframe](./assets/wireframes.png)
+* [Wireframes](./wireframes.png)
 
 
 ## Technologies Used
