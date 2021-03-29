@@ -1,7 +1,7 @@
 # Project Wayfarer
 - https://wayfarer-abjj.herokuapp.com/
 
-## 4 Person Team Collaboration a MERN App 
+## 4 Person Team Collaboration building a MERN App 
 
 Myself and 3 other team members have been commissioned to build a travel community, code-named Project Wayfarer, for users to share tips (AKA posts) about their favorite locations around the world.
 
