@@ -1,11 +1,11 @@
 # Project Wayfarer
 - https://wayfarer-abjj.herokuapp.com/
 
-## 4 Person Team Collaboration building a MERN App 
+## 4 Person Team Collaboration building a MERN Stack 
 
 Myself and 3 other team members have been commissioned to build a travel community, code-named Project Wayfarer, for users to share tips (AKA posts) about their favorite locations around the world.
 
-Project Wayfarer was not only a project to build our knowledge using the JavaScript library React but also was designed to build our team building skills. 
+Project Wayfarer was not only a project to build our knowledge using the MERN Stack but also was designed to build our team building skills. 
 
 ## Client Contract
 
