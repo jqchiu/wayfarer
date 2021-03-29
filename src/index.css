@@ -1,0 +1,521 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+/* ----------------------------f
+          Header.js
+------------------------------- */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  justify-content: space-between;
+  background: #0C2C56;
+}
+
+.wayfare-logo {
+  padding: 20px 0 20px 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#wayfarer-logo {
+  height: 70px;
+}
+
+.nav {
+  display: flex;
+  align-content: center;
+  padding-right: 50px;
+}
+
+a {
+  /* padding-right: 20px;
+  padding-left: 20px; */
+  text-decoration: none;
+}
+
+.home {
+  color: #C4CED4;
+  height: 56px;
+  width: 120px;
+  padding: 13px 0 13px 0;
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Cormorant', serif;
+  font-weight: 400;
+  font-size: larger;
+}
+
+.home:hover {
+  background:#005C5C;
+  font-weight: 700;
+  font-size: larger;
+  color: white;
+}
+
+.divider {
+  border-left: 0.7px solid;
+  height: 30px;
+  color: #C4CED4;
+  margin-top: 12px;
+}
+
+.view-cities {
+  color: #C4CED4;
+  height: 50px;
+  width: 120px;
+  padding: 13px 0 13px 0;
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Cormorant', serif;
+  font-weight: 400;
+  font-size: larger;
+}
+
+.view-cities:hover {
+  background:#005C5C;
+  font-weight: 700;
+  font-size: larger;
+  color: white;
+}
+
+.log-in {
+  color: #C4CED4;
+  height: 50px;
+  width: 120px;
+  padding: 13px 0 13px 0;
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Cormorant', serif;
+  font-weight: 400;
+  font-size: larger;
+}
+
+.log-in:hover {
+  background:#005C5C;
+  font-weight: 700;
+  font-size: larger;
+  color: white;
+}
+
+.log-out {
+  color: #C4CED4;
+  height: 50px;
+  width: 120px;
+  padding: 13px 0 13px 0;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Cormorant', serif;
+  font-weight: 400;
+  font-size: larger;
+}
+
+.log-out:hover {
+  background:#D50032;
+  font-weight: 700;
+  font-size: larger;
+  color: white;
+}
+
+/* ----------------------------
+          LandingPage
+------------------------------- */
+.wheading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color:#0C2C56;
+}
+
+.carousel-inner {
+  max-height: 600px;
+}
+
+.carousel-item img {
+  height: 600px;
+  object-fit: cover;
+  background: #777;
+}
+
+.topic-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color:#0C2C56;
+}
+
+.topicSub {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color:#C4CED4;
+}
+
+.topicText {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color:#0C2C56;
+}
+
+/* ----------------------------
+          TOPIC.JS
+------------------------------- */
+
+.heading {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0 10px 0;
+}
+
+.card-topic {
+  height: 16rem;
+  border: 0;
+}
+
+#topic {
+  padding-bottom: 20px;
+  margin: 0 100px 0 100px;
+}
+
+.card-body.topic {
+  text-align: center;
+}
+
+/* ----------------------------
+    CityPage / Cities Card
+------------------------------- */
+
+.container-fluid.cities {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+#cities-container {
+  /* height: 100vh; */
+  background: #C4CED4;
+  padding-bottom: 50px;
+}
+
+.cities-card {
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-family: 'Cormorant', serif;
+  font-weight: 700;
+  color: #0C2C56;
+}
+
+#city-container {
+  margin: 0 30px 40px 30px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#city-card {
+  align-items: center;
+  background: rgb(12, 44, 86);
+  cursor: pointer;
+}
+
+.cityImg {
+  height: 200px;
+  width: 240px;
+}
+
+#city-card img {
+  height: 200px;
+  width: 100%;
+}
+
+.cityName {
+  width: 400px;
+}
+
+#city-body {
+  text-align: center;
+}
+
+.city-title {
+  font-size: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  /* text-transform: uppercase; */
+  color: white;
+}
+
+#city-card:hover {
+  background: #005C5C;
+  color: white;
+}
+
+/* ----------------------------
+          Dynamic Form
+------------------------------- */
+
+.mymodal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.mymodalcontent {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  height: 50%;
+  max-height: 60%;
+}
+
+.create-editTitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #005C5C;
+}
+
+.form-label {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #005C5C;
+}
+
+.form-control {
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.create-editBtn {
+  border-radius: 30px;
+  height: 43px;
+  width: 210px;
+  margin-right: 40px;
+  background: #0C2C56;
+  border-color: #0C2C56;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+
+.create-editBtn:hover {
+  background: #005C5C;
+  border-color: #005C5C;
+  font-weight: 600px;
+}
+
+.create-editClose {
+  border-radius: 30px;
+  height: 43px;
+  width: 210px;
+  margin-right: 40px;
+  background: none;
+  color: #0C2C56;
+  border-color: #0C2C56;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+
+.create-editClose:hover {
+  background: #D50032;
+  border-color: #0C2C56;
+  font-weight: 600px;
+}
+
+/* ----------------------------
+    CityPage / Cities Column
+------------------------------- */
+
+.city-content {
+  align-items: baseline;
+}
+
+.CityName {
+  font-size: 80px;
+  padding-left: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #D50032;
+}
+
+.CitySubtitle {
+  font-size: 30px;
+  padding-left: 65px;
+  margin-top: -50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #005C5C;
+}
+
+.city-image {
+  height: 450px;
+  width: 100%;
+}
+
+#main-city-image {
+  height: 80%;
+  width: inherit;
+  object-fit: cover;
+  padding-top: 25px;
+  padding-right: 50px;
+}
+
+.create-button {
+  height: 40px;
+  width: 700px;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.buttonHolder {
+  display: flex;
+  justify-content: flex-end;
+  width: 25%;
+}
+
+#plusBtn {
+  font-size: 50px;
+  color: red;
+  padding-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+/* ----------------------------
+        POST Container
+------------------------------- */
+
+.posts {
+  font-family: 'Cormorant', serif;
+  font-size: 60px;
+  font-weight: 700;
+  color: #0C2C56;
+}
+
+.post-container {
+  width: 97%;
+  padding-left: 60px;
+}
+
+.postContent {
+  /* display: flex;
+  flex-direction: column; */
+  max-width: 210px;
+  margin-right: 150px;
+}
+
+.postTitle {
+  margin-bottom: .5rem;
+  color: #D50032;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.postText {
+  font-family: 'Poppins', sans-serif;
+  color: #0C2C56;
+}
+
+/* .post-content {
+  height: 271px;
+} */
+
+.postImage {
+  height: 210px;
+}
+
+/* .postBody {
+  height: 150px;
+} */
+
+.EDbtn {
+  display: flex;
+  padding-left: 20px;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.edit-btn {
+  height: 40px;
+  width: 150px;
+  background: #0C2C56;
+  border-radius: 30px;
+  text-align: center;
+  color: white;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.editBtn {
+  margin-bottom: 0;
+  padding-top: 8px;
+}
+
+.edit-btn:hover {
+  background: #005C5C;
+  color: white;
+}
+
+.delete-btn {
+  height: 40px;
+  width: 150px;
+  border: 2px solid #0C2C56;
+  color: #0C2C56;
+  border-radius: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.deleteBtn {
+  margin-bottom: 0;
+  padding-top: 8px;
+}
+
+.delete-btn:hover {
+  background: #D50032;
+  color: white;
+  border: 2px solid #D50032;
+}
+
+
+
+
+
+/* ----------------------------
+          FOOTER
+------------------------------- */
+
+footer {
+	background-color: #0C2C56;
+  overflow: hidden;
+}
+
+.copyright {
+	padding: 15px 0 3px;
+	padding: 1rem 0 .2rem;
+  text-align: center;
+  color: #C4CED4;
+  font-family: 'Cormorant', serif;
+}
